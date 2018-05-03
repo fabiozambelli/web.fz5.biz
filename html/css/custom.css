@@ -1,0 +1,54 @@
+.full-name {
+	color: #031d3d;
+	font-family:"Arial";
+}
+
+.job-title {
+	color: #19376c;
+	font-family:"Arial";
+}
+
+.email-address {
+	color: #19376c;
+	font-family:"Arial";
+}
+
+.logo {
+	-webkit-filter: drop-shadow(0 .05rem .1rem rgba(0,0,0,.5));
+	filter: drop-shadow(0 .05rem .1rem rgba(0,0,0,.5));
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.logo { width:32%; }
+	.email-address {font-size: 1.3rem;}
+	.job-title {font-size: 1.8rem;}	
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.logo { width:23%; }
+	.email-address {font-size: 1.3rem;}
+	.job-title {font-size: 1.8rem;}	
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.logo { width:13%; }	
+	.full-name {font-size: 2.3rem;}
+	.job-title {font-size: 1.8rem;}
+	.email-address {font-size: 1.5rem;}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.logo { width:23%; }	
+	.full-name {font-size: 4.2rem;}
+	.job-title {font-size: 3.2rem;}
+	.email-address {font-size: 2.3rem;}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.logo { width:13%; }	
+}

@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  nginx:
+    image: fz5.biz-nginx
+    container_name: fz5.biz-nginx
+    ports:
+      - 80:80
